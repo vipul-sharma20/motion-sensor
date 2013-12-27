@@ -1,10 +1,6 @@
 from SimpleCV import *
-import pygame
 import time
 from time import gmtime, strftime
-pygame.init()
-pygame.camera.init()
-cameras = pygame.camera.list_cameras()
 count = 0
 cam = Camera()
 pygame.mixer.init()
