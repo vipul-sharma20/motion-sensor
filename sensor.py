@@ -3,7 +3,6 @@ import time
 from time import gmtime, strftime
 count = 0
 cam = Camera()
-pygame.mixer.init()
 threshold = 4.0 # if mean exceeds this amount do something
 
 while True:
